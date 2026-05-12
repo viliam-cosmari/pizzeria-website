@@ -11,6 +11,21 @@ body {
   font-size: 1rem;
   line-height: 1.6;
   color: white;
+  font-size: 1rem;
+}
+
+.navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 5rem;
+  gap: 1rem;
+}
+
+.nav-item {
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
 }
 
 .hero {
@@ -23,7 +38,7 @@ body {
     url(assets/img/hero.jpg);
   background-size: cover;
   background-position: center;
-  height: 100vh;
+  height: calc(100vh - 5rem);
   background-repeat: no-repeat;
 }
 
