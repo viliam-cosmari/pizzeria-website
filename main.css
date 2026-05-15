@@ -20,12 +20,15 @@ body {
   align-items: center;
   height: 5rem;
   gap: 1rem;
+  width: 100%;
+  text-align: center;
 }
 
 .nav-item {
   color: #fff;
   text-decoration: none;
   text-transform: uppercase;
+  letter-spacing: 0.1rem;
 }
 
 .hero {
